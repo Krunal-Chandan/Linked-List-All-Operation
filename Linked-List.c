@@ -95,7 +95,7 @@ void Deletion()
   struct node *temp,*newnode;
   int pos,i=1;
   newnode=(struct node *)malloc(sizeof(struct node));
-  printf("Enter the position");
+  printf("Enter the position : ");
   scanf("%d",&pos);
   temp = start;
   newnode = start->link;
