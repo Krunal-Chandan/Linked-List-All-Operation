@@ -86,7 +86,6 @@ void Insertion()
   }
   newnode -> link = temp -> link;
   temp -> link = newnode;  
-  temp = start;
   Traverse();
 }
 
